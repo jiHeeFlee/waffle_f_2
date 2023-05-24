@@ -1,0 +1,254 @@
+/* 와플 itr 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Walter+Turncoat&display=swap');
+
+html{
+    margin: 0;
+    border: 0px;
+    width: 390px;
+    height: 844px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg{
+    /* position: relative; */
+    margin: 0;
+    width: 390px;
+    height: 844px;
+
+    /* background: #E8B24D; */
+    background: #FFF8EB;
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* box-sizing: border-box; */
+    
+}
+
+.bg_i{
+    position: absolute;
+    width: 390px;
+    height: 532px;
+    left: 0px;
+    top: 312px;
+
+    background: #FFF8EB;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 110px 110px 0px 0px;
+
+}
+
+.menu_img{
+    position: absolute;
+    width: 278px;
+    height: 274px;
+    left: 56px;
+    top: 175px;
+    
+    background: #E8E4DE;
+    border-radius: 55px;
+}
+
+.head{
+    position: absolute;
+    width: 203px;
+    height: 36px;
+    left: 93px;
+    top: 86px;
+    top:63px;
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #000000;
+
+    
+}
+
+
+.menu_img{
+    position: absolute;
+    width: 278px;
+    height: 274px;
+    left: 56px;
+    top: 175px;
+
+    background: #E8E4DE;
+    border-radius: 55px;
+}
+
+
+.box1{
+
+    position: absolute;
+    width: 314px;
+    height: 56px;
+    left: 36px;
+    top: 76px;
+
+    background: #FFF8EB;
+    border: 3px solid rgba(0, 0, 0, 0.58);
+    border-radius: 15px;
+}
+
+.name{
+
+    position: absolute;
+    width: 362px;
+    height: 113px;
+    left: 9px;
+    top: 158px;
+    top:88px;
+    top:85px;
+
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 101px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+
+.menu_name{
+    position: absolute;
+    width: 273px;
+    height: 47px;
+    left: 55px;
+    top: 539px;
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #000000;
+}
+
+.place{
+    position: absolute;
+    width: 214px;
+    height: 51px;
+    left: 86px;
+    top: 601px;
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #000000;
+    
+}
+
+.itr_bt{
+    position: absolute;
+    width: 314px;
+    height: 56px;
+    left: 38px;
+    top: 729px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 314px;
+    height: 56px;
+    left: 38px;
+    top: 729px;
+
+    color: white;
+    background: #E5A020;
+    border: 3px solid rgba(0, 0, 0, 0.58);
+    border-radius: 15px;
+
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+.itr_bt:hover{
+    background-color: #E8E4DE;
+    color: black;
+}
+
+.box2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 358px;
+    height: 414px;
+    left: 16px;
+    top: 279px;
+
+    border: 3px solid #000000;
+    /* 굵기 수정 */
+    border: 6px solid black;
+    border-radius: 55px;
+}
+
+.r_1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 55px;
+    top: 94px;
+    top:96px;
+
+    background: #E5A020;
+    border-radius: 35px;
+}
+
+.r_2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 313px;
+    top: 94px;
+    top:96px;
+
+
+    background: #E5A020;
+    border-radius: 35px;
+}
+
+.box_itr{
+    position: absolute;
+    width: 459px;
+    height: 414px;
+    left: -33px;
+    top: 321px;
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    justify-content: center;
+    /* 수정할수도 */
+
+    color: #000000;
+}

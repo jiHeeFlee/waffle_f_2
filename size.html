@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>size</title>
+
+    <link rel="stylesheet" href="size.css">
+
+    <!-- 와플 itr 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="bg">
+        <img src="로딩3.png" class="img_1">
+        <img src="size_img.png" class="img_2">
+        <p class="size_itr">음식의 양은<br>어느 정도 원하시나요?</p>
+        <p id="value_s" class="value"></p>
+        <div>
+            <input type="range" id="score_s" class="rg_2" style="" max="100" min="1" step="1" value="50" >
+
+            <p class="range_itr">옆으로 밀어주세요!</p>
+
+            <button class="bt" onclick="saveValue()">다 음</button>
+        </div>
+
+    </div>
+
+    <script>
+        //input range 변수명
+        var slider = document.getElementById("score_s");
+
+        //range value 변수명
+        var output = document.getElementById("value_s")
+        output.innerHTML=slider.value;
+
+        slider.oninput=function(){
+            output.innerHTML=this.value;
+        }
+
+    </script>
+    <script src="index_최종.js"></script>
+</body>
+</html>

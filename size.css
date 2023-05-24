@@ -1,0 +1,219 @@
+/* 와플 itr 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Walter+Turncoat&display=swap');
+
+html{
+    margin: 0px;
+    border: 0px;
+    width: 390px;
+    height: 844px;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+button{
+    position: absolute;
+    width: 262px;
+    height: 58px;
+    left: 64px;
+    top: 704px;
+    
+    background: #F99800;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+.bg{
+    margin: 0;
+    width: 390px;
+    height: 844px;
+
+    background: #FFF8EB;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    align-items: center;
+  
+    
+}
+
+.img_1{
+    position: absolute;
+    width: 336px;
+    height: 52px;
+
+    top:35px; 
+}
+
+.img_2{
+    position: absolute;
+
+    width: 210px;
+    height: 210px;
+  
+    top: 186px;
+
+}
+
+.value{
+    top: 400px;
+
+    position: absolute;
+    width: 348px;
+    height: 69px;
+
+    left: 180px;
+    top: 490px;
+
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.size_itr{
+    position: absolute;
+    width: 348px;
+    height: 69px;
+    left: 23px;
+    top: 372px;
+
+    position: absolute;
+    width: 348px;
+    height: 69px;
+    left: 23px;
+    /* top: 422px; */
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 38px;
+    /* or 69% */
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #000000; 
+}
+
+.range_itr{
+    position: absolute;
+    width: 131px;
+    width: 150px;
+    height: 19px;
+    left: calc(50% - 131px/2 - 0.5px);
+    left: 120px;
+    top: 699px;
+    top: 630px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rg_2{
+    background: linear-gradient(to right,#ffe589  0%,#ffce1e 100%,#ececec 50%,#ececec 100%);
+    background: linear-gradient(to right,#ffe999  0%,#ffce1e 100%,#ececec 50%,#ececec 100%);
+    border-radius: 8px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    /* accent-color: #ffca1d; */
+
+    accent-color: 50px  #f99d00;
+
+    position: absolute;
+    width: 344px;
+    /* height: 6px; */
+    height: 12px;
+    left: 23px;
+    top: 592px;
+
+    /* position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 5px;
+    top: 69px; */
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    accent-color: #f99d00;
+}
+
+.rg_p{
+    color: red;
+    /* background-color: #F99800; */
+    /* content: initial; */
+    
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500;
+    /* top: 672px; */
+
+    font-size: 30px;
+
+    /* align-content: center; */
+
+    /* position: absolute; */
+    /* width: 21px;
+    height: 42px; */
+    left: calc(50% - 21px/2 + 0.5px);
+    /* left: 155px; */
+    top: 0px;
+    top:200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #171513;
+}
+
+.bt{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    padding: 16px 0px;
+    margin: 0;
+    gap: 8px;
+
+    width: 325px;
+    height: 64px;
+    left: 32.5px;
+
+    background: #E5A020;
+    color: white;
+    border-radius: 14px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bt:hover{
+    background: #E8E4DE;
+    color: black;
+}

@@ -1,0 +1,167 @@
+
+/* 와플 title 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+/* 와플 itr 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Walter+Turncoat&display=swap');
+
+html{
+    margin: 0;
+    border: 0px;
+    width: 390px;
+    height: 844px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    /* position: relative; */
+    margin: 0;
+    width: 390px;
+    height: 844px;
+
+    background: #FFF8EB;
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* box-sizing: border-box; */
+    
+}
+h1{
+    position: absolute;
+    width: 399px;
+    height: 76px;
+    left: -5px;
+    top: 140px;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Walter Turncoat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+
+    line-height: 22px;
+    /* or 25% */
+    
+    letter-spacing: -0.408px;
+    
+    color: #000000;
+
+}
+
+.head_dot{
+    margin: 0;
+    padding: 0;
+    color: #E5A020;
+
+    font-size: 60px;
+
+    position: absolute;
+    left: 340px;
+    top: 0px;
+    top : 0px;
+
+    font-family: 'Walter Turncoat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    text-align: center;
+}
+
+.start_itr{
+
+    margin: 0px;
+    padding: 0px;
+
+    position: absolute;
+    width: 247px;
+    height: 229px;
+    left: 72px;
+    top:548px;
+
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -2px;
+
+    color: #171513;
+
+}
+
+.waffle{
+    position: absolute;
+    width: 247px;
+    height: 229px;
+    left: calc(50% - 247px/2 - 0.5px);
+    top: calc(50% - 229px/2 + 350.5px);
+
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -2px;
+
+    color: #171513;
+}
+
+.index_img{
+    position: absolute;
+    width: 325px;
+    height: 234px;
+    left: 25px;
+    top: 239px;
+    
+    background: url(pngimg.png);
+
+}
+
+.index_img2{
+
+    position: absolute;
+    width: 312.24px;
+    height: 15.76px;
+    left: 49px;
+    top: 496px;
+
+    background: url(line.png);
+    background-size: cover;
+}
+
+.index_img3{
+    position: absolute;
+    width: 169.57px;
+    height: 100px;
+    /* left: 104px; */
+    top: 702px;
+
+    background: url(logo.png);
+    background-size: cover;
+
+}
+
+.index_img4{
+    position: absolute;
+    width: 247px;
+    height: 229px;
+    height: 40px;
+    /* left: calc(50% - 247px/2 - 0.5px); */
+    /* top: calc(50% - 229px/2 + 350.5px); */
+    top: 717px;
+}
